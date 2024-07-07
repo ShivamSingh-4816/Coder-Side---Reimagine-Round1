@@ -1,0 +1,163 @@
+
+ 
+body{
+    background:linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ) ,url("https://i.ibb.co/vXqDmnh/background.jpg") no-repeat center
+    center/cover; 
+   
+   position:relative;
+   height:500px;
+   background-color: #000000;
+   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  
+  color:white;
+
+}
+
+
+.login{
+    background-color: transparent ; 
+    border:2px black solid;
+    margin:auto;
+    width:330px;
+    border-radius:5px;
+    padding:40px 65px 120px 70px;
+    
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+    transition: all 0.5s;
+   
+}
+
+.login:hover{
+    
+    transform:scale(1.1);
+}
+.data-input{
+    margin-bottom:20px;
+    background-color:transparent;
+    border-color:white;
+    outline:transparent;
+    border-radius: 4px;
+    width:100%;
+    height: 45px;
+    
+   
+}
+
+.data-input input{
+    background-color:transparent;
+    text-indent:18px;
+font:white
+}
+
+ .btn-signin{
+    margin-top:20px;
+    width:100%;
+    border:none;
+    cursor:pointer;
+    border-radius: 5px;
+    color:white;
+    padding:15px;
+    background-color:red;
+ }
+.sign-in{
+    color:white;
+}
+.or{
+    text-align: center;
+    color: white;
+}
+.btn-code{
+    margin-top:20px;
+    width:100%;
+    border:none;
+    cursor:pointer;
+    border-radius: 5px;
+    color:rgb(255, 245, 245);
+    padding:15px;
+    background-color:rgba(87, 83, 83, 0.5);
+    
+}
+.forgot-password{
+    margin-top:10px;
+    text-align: center;
+    color: white;
+}
+a:active{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+a:hover{
+    color:rgb(219, 217, 201);
+}
+a:link{
+    color:white;
+}
+.remember{
+    margin-top:15px;
+    color:white;
+}
+
+.netflix-text{
+    margin-top:15px;
+}
+
+
+
+.footer-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    text-decoration:underline;
+  }
+
+.footer{
+    margin-top:160px;
+    padding-bottom:30px;
+    margin-left:150px;
+    margin-right:150px;
+}
+
+.call{
+    margin-bottom:50px;
+}
+
+
+.fa{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   
+    margin-top:20px;
+    
+    border:none;
+    cursor:pointer;
+    border-radius: 5px;
+    color:rgb(255, 245, 245);
+    padding:10px;
+    background-color:rgba(87, 83, 83, 0.5);
+ 
+}
+
+
+
+
+.img-netflix-icon{
+  width:160px;
+   height:45px;
+   margin-left:80px;
+   margin-top:20px;
+   margin-bottom:35px;
+   mix-blend-mode:difference;
+   
+}
+
+
+input{
+    color: aliceblue;
+}
+
